@@ -1,35 +1,126 @@
+.bg {
+  height: 1890px; /* เนื้อหาจะยาวเกินหน้าจอ */
+}
+.icon {
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid rgb(255, 255, 255);
+  object-fit: cover;
+}
 body {
-    margin: 0;
-    background-color: #E1EEBC;
-    font-family: Arial, sans-serif;
-  }
-  
-  .header {
-    background-color: #90C67C;
-    padding: 50px 0;
-    text-align: center;
-  }
-  
-  .header h1 {
-    margin: 0;
-    color: white;
-  }
-  
-  .video {
-    text-align: center; /* ทำให้ทั้งรูปและข้อความอยู่กลางแนวนอน */
-    padding: 30px;
-  }
-  
-  .video img {
-    display: block;      /* เพื่อให้ใช้ margin ได้ */
-    margin: 0 auto;      /* กลางแนวนอน */
-    max-width: 90%;
-    height: auto;
-  }
-  
-  .video p {
-    margin-top: 10px;
-    font-size: 1rem;
-    color: #000000;
-  }
-  
+  overflow: auto; /* ทำให้สามารถเลื่อนได้หากเนื้อหามีมากเกินหน้าจอ */
+  height: 10s0vh; /* กำหนดความสูงของ body เป็น 100% ของความสูงหน้าจอ */
+}
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+html, body {
+  height: 100%; /* กำหนดความสูงของหน้าเว็บเป็น 100% ของหน้าจอ */
+  margin: 0; /* ลบ margin เพื่อไม่ให้มีช่องว่าง */
+  padding: 0; /* ลบ padding */
+  overflow-y: scroll; /* ทำให้เลื่อนแนวตั้ง */
+}
+.body {
+  background-color: lab(79.62% -26.96 -31.55);
+  padding: 50px 0;
+  text-align: center;
+}
+.body h1 {
+  margin: 0;
+  color: white;
+}
+
+.video1 {
+  text-align: center; /* ทำให้ทั้งรูปและข้อความอยู่กลางแนวนอน */
+  padding: 30px;
+}
+
+.video1 img {
+  display: block;      /* เพื่อให้ใช้ margin ได้ */
+  margin: 0 auto;      /* กลางแนวนอน */
+  max-width: 90%;
+  height: auto;
+}
+.v1bg {
+  background-color: rgb(171, 254, 255);
+}
+
+.video2 {
+  text-align: center; /* ทำให้ทั้งรูปและข้อความอยู่กลางแนวนอน */
+  padding: 30px;
+}
+
+.video2 img {
+  display: block;      /* เพื่อให้ใช้ margin ได้ */
+  margin: 0 auto;      /* กลางแนวนอน */
+  max-width: 90%;
+  height: auto;
+}
+.v2bg {
+  background-color: rgb(169, 113, 241);
+}
+
+.video3 {
+  text-align: center; /* ทำให้ทั้งรูปและข้อความอยู่กลางแนวนอน */
+  padding: 30px;
+}
+
+.video3 img {
+  display: block;      /* เพื่อให้ใช้ margin ได้ */
+  margin: 0 auto;      /* กลางแนวนอน */
+  max-width: 90%;
+  height: auto;
+}
+.v3bg {
+  background-color: rgb(255, 192, 251);
+}
+.endcredit {
+  display: grid;
+  place-content: center;
+  height: 100px;
+  background-color: lab(100% 0.01 -0.01);
+}
+
+
+
+
+
+/* เมนูหลัก */
+.menu ul {
+  display: flex;           /* ใช้ Flexbox เพื่อจัดการแนวนอน */
+  justify-content: center; /* จัดเมนูให้อยู่กลาง */
+  padding: 0;              /* ลบ padding ในตัว */
+  margin: 0;               /* ลบ margin ในตัว */
+  list-style-type: none;   /* ลบจุดหรือหมายเลขที่หน้าหมายเลขในรายการ */
+}
+
+/* สไตล์เมนู */
+.menu li {
+  margin: 0 15px; /* เว้นระยะห่างระหว่างเมนู */
+}
+
+/* สไตล์ลิงก์ในเมนู */
+.menu a {
+  text-decoration: none;   /* ลบขีดเส้นใต้ */
+  color: black;            /* สีข้อความ */
+  font-size: 16px;         /* ขนาดฟอนต์ */
+  font-weight: bold;       /* ตัวหนา */
+  transition: color 0.3s;  /* เพิ่มการเปลี่ยนแปลงสีเมื่อ hover */
+  margin: o;
+}
+
+/* เมื่อลากเมาส์ไปที่ลิงก์ */
+.menu a:hover {
+  color: #007BFF; /* เปลี่ยนสีเมื่อ hover */
+}
+
+.menu {
+  background-color: rgba(164, 243, 255, 0.837); /* สีขาวจางๆ */
+  backdrop-filter: blur(10px);               /* เบลอพื้นหลัง */
+  -webkit-backdrop-filter: blur(10px);       /* รองรับ Safari */
+  padding: 10px 0;
+}
