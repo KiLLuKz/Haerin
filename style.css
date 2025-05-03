@@ -106,7 +106,7 @@ html, body {
 /* สไตล์ลิงก์ในเมนู */
 .menu a {
   text-decoration: none;   /* ลบขีดเส้นใต้ */
-  color: black;            /* สีข้อความ */
+  color: white;            /* สีข้อความ */
   font-size: 16px;         /* ขนาดฟอนต์ */
   font-weight: bold;       /* ตัวหนา */
   transition: color 0.3s;  /* เพิ่มการเปลี่ยนแปลงสีเมื่อ hover */
