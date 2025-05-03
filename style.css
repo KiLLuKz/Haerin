@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: #E1EEBC;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #90C67C;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    color: white;
+  }
+  
+  .video {
+    text-align: center; /* ทำให้ทั้งรูปและข้อความอยู่กลางแนวนอน */
+    padding: 30px;
+  }
+  
+  .video img {
+    display: block;      /* เพื่อให้ใช้ margin ได้ */
+    margin: 0 auto;      /* กลางแนวนอน */
+    max-width: 90%;
+    height: auto;
+  }
+  
+  .video p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #000000;
+  }
+  
