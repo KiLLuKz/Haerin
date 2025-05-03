@@ -111,6 +111,7 @@ html, body {
   font-weight: bold;       /* ตัวหนา */
   transition: color 0.3s;  /* เพิ่มการเปลี่ยนแปลงสีเมื่อ hover */
   margin: o;
+  text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 
 /* เมื่อลากเมาส์ไปที่ลิงก์ */
