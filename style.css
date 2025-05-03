@@ -124,3 +124,6 @@ html, body {
   -webkit-backdrop-filter: blur(10px);       /* รองรับ Safari */
   padding: 10px 0;
 }
+.text {
+  color: white;
+}
